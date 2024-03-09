@@ -9,7 +9,7 @@ const Footer = () => {
     <footer className="flex flex-col bg-primary p-12 gap-8 items-center">
       <div className="flex justify-center items-center">
         <picture>
-          <Image src="/images/logo-footer.png" alt="logo-footer" width={300} height={300} />
+          <Image src="/images/logo-footer.png" alt="logo-footer" width={300} height={300} className='h-auto w-auto' />
         </picture>
       </div>
       <div className='flex flex-col lg:flex-row gap-4  max-w-[1200px] w-full  justify-around'>

@@ -4,10 +4,10 @@ const SocialBox = () => {
   return (
     <div className="flex gap-4  justify-center">
       <picture>
-        <Image src="/images/icon-fb.svg" alt="fb" width={50} height={50} />
+        <Image src="/images/icon-fb.svg" alt="fb" width={50} height={50} className='h-auto w-auto' />
       </picture>
       <picture>
-        <Image src="/images/ig.svg" alt="ig" width={50} height={50} />
+        <Image src="/images/ig.svg" alt="ig" width={50} height={50} className='h-auto w-auto' />
       </picture>
     </div>
   )

@@ -1,0 +1,5 @@
+export const FOOTER_SOCIAL_HEADING = 'Síguenos'
+export const FOOTER_INTEREST_SITES_HEADING = 'Sitios de interés'
+export const FOOTER_CONTACT_HEADING = 'Contacto'
+export const FOOTER_CONTACT_EMAIL_TEXT = 'institutoeducatec@gmail.com'
+export const FOOTER_ADDRESS_TEXT = 'Tlahuexolotzi #22,Santiago Tepeticpac,Totolac, Tlaxcala, C.P. 90163'

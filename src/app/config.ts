@@ -1,0 +1,32 @@
+export const HERO_SECTION_HEADING = 'Trazando un Futuro Solidario'
+export const HERO_SECTION_SUBHEADING = 'Ofrecemos asistencia integral y promovemos el desarrollo social y cultural con un enfoque en los Derechos Humanos.'
+export const HERO_SECTION_BTN = 'conoce más'
+export const ABOUT_SECTION_HEADING = 'Instituto EducaTec'
+export const ABOUT_SECTION_PARAGRAPH = 'Nos dedicamos a ofrecer una amplia gama de servicios que incluyen atención médica, asistencia y rehabilitación médica integral, así como apoyo jurídico especializado. Además, trabajamos en colaboración con comunidades indígenas, proporcionando apoyo para su desarrollo socioeconómico y cultural.'
+
+export const PROJECTS = [
+  {
+    ID: 1,
+    HEADING: 'Asistencial',
+    BODY: 'Proporcionamos programas de asistencia integral a mujeres en diversas áreas. Nuestro objetivo es ofrecerles apoyo emocional, social, económico y educativo para ayudarlas a superar desafíos y mejorar su calidad de vida',
+    BTN_TEXT: 'Ver Galería',
+    IMG_SRC: '/images/asistencial.png',
+    LINK: '/gallery/care'
+  },
+  {
+    ID: 2,
+    HEADING: 'Empoderamiento Económico',
+    BODY: 'Nos enfocamos en promover y fortalecer el empoderamiento económico de las mujeres. Trabajamos para brindarles herramientas, oportunidades y recursos que les permitan desarrollar sus habilidades, iniciar sus propios emprendimientos y acceder a mejores condiciones económicas.',
+    BTN_TEXT: 'Ver Galería',
+    IMG_SRC: '/images/pr-economic.png',
+    LINK: '/gallery/care'
+  },
+  {
+    ID: 3,
+    HEADING: 'Emprendedoras',
+    BODY: 'Apoyamos a  mujeres proporcionándoles respaldo, recursos y oportunidades para desarrollar sus proyectos con éxito, confiando en su capacidad para generar impacto positivo en sus comunidades y comprometidas con su crecimiento económico y social.',
+    BTN_TEXT: 'Ver Galería',
+    IMG_SRC: '/images/entrepeneur-pj.png',
+    LINK: '/gallery/care'
+  }
+]

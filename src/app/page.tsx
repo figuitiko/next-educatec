@@ -19,7 +19,7 @@ export default function Home () {
       </div>
     </SectionWrapper>
     <SectionWrapper id="nosotros" className='justify-center items-center bg-primary'>
-      <ContentBox imgSrc='/images/Illustrationsabout-hero.png' headingText={ABOUT_SECTION_HEADING}
+      <ContentBox imgSrc='/images/Illustrationsabout-hero.webp' headingText={ABOUT_SECTION_HEADING}
       bodyText={ABOUT_SECTION_PARAGRAPH}
       bodyCss='text-2xl font-medium text-white'
       btnText={HERO_SECTION_BTN}

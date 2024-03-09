@@ -10,7 +10,7 @@ export const PROJECTS = [
     HEADING: 'Asistencial',
     BODY: 'Proporcionamos programas de asistencia integral a mujeres en diversas áreas. Nuestro objetivo es ofrecerles apoyo emocional, social, económico y educativo para ayudarlas a superar desafíos y mejorar su calidad de vida',
     BTN_TEXT: 'Ver Galería',
-    IMG_SRC: '/images/asistencial.png',
+    IMG_SRC: '/images/asistencial.webp',
     LINK: '/gallery/care'
   },
   {
@@ -18,7 +18,7 @@ export const PROJECTS = [
     HEADING: 'Empoderamiento Económico',
     BODY: 'Nos enfocamos en promover y fortalecer el empoderamiento económico de las mujeres. Trabajamos para brindarles herramientas, oportunidades y recursos que les permitan desarrollar sus habilidades, iniciar sus propios emprendimientos y acceder a mejores condiciones económicas.',
     BTN_TEXT: 'Ver Galería',
-    IMG_SRC: '/images/pr-economic.png',
+    IMG_SRC: '/images/pr-economic.webp',
     LINK: '/gallery/economic'
   },
   {
@@ -26,7 +26,7 @@ export const PROJECTS = [
     HEADING: 'Emprendedoras',
     BODY: 'Apoyamos a  mujeres proporcionándoles respaldo, recursos y oportunidades para desarrollar sus proyectos con éxito, confiando en su capacidad para generar impacto positivo en sus comunidades y comprometidas con su crecimiento económico y social.',
     BTN_TEXT: 'Ver Galería',
-    IMG_SRC: '/images/entrepeneur-pj.png',
+    IMG_SRC: '/images/entrepeneur-pj.webp',
     LINK: '/gallery/care'
   }
 ]

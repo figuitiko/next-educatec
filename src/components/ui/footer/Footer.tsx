@@ -12,7 +12,7 @@ const Footer = () => {
           <Image src="/images/logo-footer.png" alt="logo-footer" width={300} height={300} />
         </picture>
       </div>
-      <div className='flex max-w-[1200px] w-full  justify-around'>
+      <div className='flex flex-col lg:flex-row gap-4  max-w-[1200px] w-full  justify-around'>
         <div className='flex flex-col gap-4'>
           <Text as='h2' className='heading-secondary text-secondary'>{FOOTER_SOCIAL_HEADING}</Text>
           <ul className='flex flex-col gap-2'>

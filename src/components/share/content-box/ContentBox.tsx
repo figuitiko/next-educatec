@@ -9,7 +9,7 @@ const ContentBox = (props: Props) => {
   const { imgSrc, headingText, bodyCss, btnText, bodyText, link, isPrimaryBtn = false } = props
   const isDynamic = 'isDynamic' in props ? props?.isDynamic : false
   return (
-    <div className="flex justify-center max-w-[1200px] gap-8 ">
+    <div className="flex flex-col lg:flex-row justify-center max-w-[1200px] gap-8 ">
       <picture className="min-w-[200px] lg:min-w-[400px]">
         <Image src={imgSrc} alt="hero image" width={400} height={400} className='object-cover w-full h-full'/>
       </picture>

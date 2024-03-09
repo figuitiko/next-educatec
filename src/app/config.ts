@@ -19,7 +19,7 @@ export const PROJECTS = [
     BODY: 'Nos enfocamos en promover y fortalecer el empoderamiento económico de las mujeres. Trabajamos para brindarles herramientas, oportunidades y recursos que les permitan desarrollar sus habilidades, iniciar sus propios emprendimientos y acceder a mejores condiciones económicas.',
     BTN_TEXT: 'Ver Galería',
     IMG_SRC: '/images/pr-economic.png',
-    LINK: '/gallery/care'
+    LINK: '/gallery/economic'
   },
   {
     ID: 3,

@@ -31,9 +31,26 @@ body {
     text-wrap: balance;
   }
 } */
+body {
+  @apply bg-gradient-to-b from-[#D9D9D9] to-white;
+}
 .heading-main {
   @apply font-bold  text-[52px] leading-[62px];
 }
 .heading-secondary {
   @apply font-bold text-[24px] leading-[31px];
 }
+::-webkit-scrollbar {
+  width: 10px;
+}
+  ::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+  ::-webkit-scrollbar-thumb {
+  background: #888; 
+    border-radius:10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  
+  background: #555; 
+} 

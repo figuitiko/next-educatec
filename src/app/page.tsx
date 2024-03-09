@@ -4,11 +4,12 @@ import SectionWrapper from '@/components/share/SectionWrapper'
 import { FaArrowRight } from 'react-icons/fa'
 import { ABOUT_SECTION_HEADING, ABOUT_SECTION_PARAGRAPH, HERO_SECTION_BTN, HERO_SECTION_HEADING, HERO_SECTION_SUBHEADING, PROJECTS } from './config'
 import ContentBox from '@/components/share/content-box/ContentBox'
+import { cn } from '@/utils/style.util'
 
 export default function Home () {
   return (
     <>
-    <SectionWrapper id="hero" className='justify-center items-center bg-hero-pattern bg-no-repeat bg-cover h-[100vh] mt-[-120px]'>
+    <SectionWrapper id="hero" className='justify-center items-center bg-hero-pattern bg-no-repeat bg-cover h-[55vh] mt-[-120px]'>
       <div className='flex flex-col justify-center max-w-[1200px] gap-4'>
         <Text as="h1" className='heading-main text-primary'>{HERO_SECTION_HEADING}</Text>
         <Text className='text-2xl font-medium'>{HERO_SECTION_SUBHEADING}</Text>
@@ -27,7 +28,9 @@ export default function Home () {
     </SectionWrapper>
     <SectionWrapper id="proyectos" className='justify-center items-center bg-white'>
       <Text as="h2" className='heading-main text-main'>Nuestros Proyectos</Text>
-      <div className='flex flex-col gap-36'>
+      <div className={cn('flex flex-col gap-36', {
+        'overflow-y-scroll max-h-[1200px]': PROJECTS.length > 3
+      })}>
       {
         PROJECTS.map((project) => (
           <ContentBox

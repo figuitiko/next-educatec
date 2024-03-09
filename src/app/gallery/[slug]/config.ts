@@ -110,7 +110,7 @@ export const galleryData = {
     data: carePhotos,
     subTitle: 'Gracias a Erika Robles Manager de United Across Borders Foundation, a Tomás Romero Presidente de Clic, entregamos insumos médicos por 4 millones de peso en el Estado de Tlaxcala.'
   },
-  entrepreneur: {
+  economic: {
     data: entrepreneurPhotos,
     subTitle: 'Gracias a Fundación Coppel echamos  andar el proyecto “Creciendo Juntas” en el estado de Yucatán.'
   }

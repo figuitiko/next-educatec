@@ -1,3 +1,4 @@
+import SkeletonComponent from '@/components/common/SkeletonComponent'
 import { galleryData } from './config'
 import SectionWrapper from '@/components/share/SectionWrapper'
 import { Text } from '@/components/share/text/Text'
@@ -24,11 +25,11 @@ const GalleryPage = ({ params }: { params: { slug: string } }) => {
         <span className='text-secondary'>|</span>
         <Link className='text-secondary underline' href="/gallery"> Emprendimiento </Link>
       </div>
-      <Text as="h3" className="heading-sub text-main text-center">
+      <Text as="h3" className="heading-sub text-primary text-center">
         {subHeading}
       </Text>
       </div>
-      <Suspense fallback={<div>Loading...</div>}>
+      <Suspense fallback={<SkeletonComponent count={5} />}>
         <Gallery photos={photos} />
       </Suspense>
     </SectionWrapper>

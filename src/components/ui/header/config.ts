@@ -15,12 +15,12 @@ export const menuItems = [
     url: '/gallery/care'
   },
   {
-    id: 3,
+    id: 4,
     title: 'Blog',
     url: '/blog'
   },
   {
-    id: 4,
+    id: 5,
     title: 'Contact',
     url: '/contact'
   }

@@ -19,7 +19,7 @@ const NavBar = () => {
         </Link>
       <div className='flex lg:hidden text-white ml-auto' onClick={() => { setIsVisible(!isVisible) }}>
         <picture>
-          <Image src="/images/menuburger.svg" alt="menu" width={50} height={50} className='h-auto w-auto' />
+          <Image src="/images/icons/menuburger.svg" alt="menu" width={50} height={50} className='h-auto w-auto' />
         </picture>
       </div>
       </div>

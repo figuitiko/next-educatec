@@ -27,7 +27,7 @@ export default function Home () {
       />
     </SectionWrapper>
     <SectionWrapper id="proyectos" className='justify-center items-center bg-white'>
-      <Text as="h2" className='heading-main text-main'>Nuestros Proyectos</Text>
+      <Text as="h2" className='heading-main text-primary'>Nuestros Proyectos</Text>
       <div className={cn('flex flex-col gap-36', {
         'overflow-y-scroll max-h-[1200px]': PROJECTS.length > 3
       })}>
@@ -37,7 +37,7 @@ export default function Home () {
           key={project.ID}
           headingText={project.HEADING}
           bodyText={project.BODY}
-          bodyCss='text-main'
+          bodyCss='text-primary'
           imgSrc={project.IMG_SRC}
           btnText={project.BTN_TEXT}
           isPrimaryBtn={true}

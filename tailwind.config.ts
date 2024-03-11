@@ -18,8 +18,13 @@ const config: Config = {
       colors: {
         primary: '#001B48',
         secondary: '#E9197F',
-        third: '#1E1424'
+        third: '#1E1424',
+        fourth: '#C9C9C9',
+        fifth: '#8D8D8D'
       }
+    },
+    variants: {
+      fill: ['hover', 'focus']
     }
   },
   plugins: []

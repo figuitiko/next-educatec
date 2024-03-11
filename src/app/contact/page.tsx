@@ -29,13 +29,13 @@ const ContactPage = () => {
           <div className="flex flex-col gap-12">
             {CONTACT_INFO.map((info) => (
               <div key={info.ID} className="flex  gap-8 items-center">
-                <picture>
+                <picture className='min-w-[24px] min-h-[24px]'>
                   <Image
                     src={info.ICON}
                     alt={info.INFO}
                     width={24}
                     height={24}
-                    className='w-auto h-auto'
+                    className='w-auto h-auto min-w-[24px] min-h-[24px]'
                   />
                 </picture>
                 {info.LINK !== undefined

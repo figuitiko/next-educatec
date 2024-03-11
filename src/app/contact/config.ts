@@ -17,6 +17,6 @@ export const CONTACT_INFO = [
   {
     ID: 3,
     ICON: '/images/icons/location-icon.svg',
-    INFO: 'Dirección: Av. Siempre Viva 123, Springfield'
+    INFO: 'Dirección: Av. Siempre Viva 123, SpringfieldTlahuexolotzi #22, Santiago Tepeticpac, Totolac, Tlaxcala, C.P. 90163'
   }
 ]

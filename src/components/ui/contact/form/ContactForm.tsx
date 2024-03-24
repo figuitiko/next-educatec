@@ -52,9 +52,9 @@ export const ContactForm = () => {
   return (
     <form
       onSubmit={handleSubmitWithEvent}
-      className="flex flex-1 flex-col gap-12 p-8"
+      className="flex flex-1 flex-col gap-12 p-2 lg:p-8"
     >
-      <div className="flex gap-4">
+      <div className="flex flex-col lg:flex-row gap-4">
         <div className="flex flex-1 flex-col">
           <label className="text-fifth" htmlFor="Nombre">
             Nombre
@@ -78,7 +78,7 @@ export const ContactForm = () => {
           <p className="text-red-500">{errors.company?.message}</p>
         </div>
       </div>
-      <div className="flex gap-4">
+      <div className="flex flex-col lg:flex-row gap-4">
         <div className="flex flex-col flex-1">
           <label className="text-fifth" htmlFor="Nombre">
             Email

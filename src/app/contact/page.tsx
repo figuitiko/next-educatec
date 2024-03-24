@@ -12,18 +12,18 @@ import { EDUCATEC_FACEBOOK, EDUCATEC_INSTAGRAM } from '@/constants'
 const ContactPage = () => {
   return (
     <SectionWrapper id="contact-form" className="lg:p-[135px]">
-      <Text as="h2" className="text-primary text-center text-[64px] font-bold">
+      <Text as="h2" className="text-primary text-center  text-[48px] lg:text-[64px] font-bold ">
         Contáctanos
       </Text>
-      <div className="flex p-8 bg-white">
-        <div className="flex flex-col bg-primary px-8 py-12 gap-12 rounded-tl-xl rounded-bl-xl max-w-[490px]">
+      <div className="flex flex-col lg:flex-row gap-12 lg:gap-0 p-2 lg:p-8 bg-white">
+        <div className="flex flex-col bg-primary px-8 py-12 gap-12 rounded-tl-xl rounded-bl-xl  lg:max-w-[490px]">
           <Text
             as="h3"
             className="text-white text-[26px] font-semibold leading-[31px]"
           >
             {HEADING_CONTACT}
           </Text>
-          <Text as="p" className="text-fourth  text-lg font-medium">
+            <Text as="p" className="text-fourth  text-lg font-medium">
             {SUBHEADING_CONTACT}
           </Text>
           <div className="flex flex-col gap-12">

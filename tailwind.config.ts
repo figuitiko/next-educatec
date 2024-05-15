@@ -17,10 +17,12 @@ const config: Config = {
       },
       colors: {
         primary: '#001B48',
+        'primary-light': '#062565',
         secondary: '#E9197F',
         third: '#1E1424',
         fourth: '#C9C9C9',
-        fifth: '#8D8D8D'
+        fifth: '#8D8D8D',
+        sixth: '#E9E4EC'
       }
     },
     variants: {

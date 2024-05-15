@@ -4,11 +4,14 @@ import { cn } from '@/utils/style.util'
 import Link from 'next/link'
 
 const Button = (props: Props) => {
-  const { children, variant } = props
-  const classValues = cn('text-white font-bold py-4 px-8 rounded justify-start w-fit', {
-    'bg-primary hover:bg-purple-500': variant === 'primary',
-    'bg-secondary hover:bg-purple-500': variant === 'secondary'
-  })
+  const { children, variant = 'primary' } = props
+  const classValues = cn(
+    'text-white font-bold py-4 px-8 rounded justify-start w-fit',
+    {
+      'bg-primary hover:bg-purple-500': variant === 'primary',
+      'bg-secondary hover:bg-purple-500': variant === 'secondary'
+    }
+  )
   if ('handleClick' in props) {
     return (
       <button className={classValues} onClick={props.handleClick}>
@@ -17,9 +20,9 @@ const Button = (props: Props) => {
     )
   }
   return (
-      <Link href={props.href} className={classValues}>
-          {children}
-      </Link>
+    <Link href={props.href} className={classValues}>
+      {children}
+    </Link>
   )
 }
 

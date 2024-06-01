@@ -10,7 +10,6 @@ const TestBox = () => {
   const [page, setPage] = useState(0)
   const [score, setScore] = useState<number[]>([])
   const [result, setResult] = useState<number | null>(null)
-  console.log({ result })
   const getScreen = () => {
     if (page === 0 && !result && result !== 0) {
       return <TestHeading />
@@ -53,11 +52,11 @@ const TestBox = () => {
           {
             'bg-result-4': result !== null && result >= 60
           },
-          'flex flex-col justify-center items-center gap-4 p-12 relative bg-cover bg-center bg-no-repeat'
+          'flex flex-col justify-center items-center gap-4 p-4 md:p-12 relative bg-cover bg-center bg-no-repeat'
         )}
       >
         {page !== 0 && page % 2 !== 0 && !result && result !== 0 && (
-          <div className="absolute top-[50%] left-[50%]  translate-x-[-50%] translate-y-[-50%] rounded-full w-[600px] h-[600px] z-10  bg-blue-600/15"></div>
+          <div className="absolute top-1/2 left-1/2  translate-x-[-50%] translate-y-[-50%] rounded-full w-[600px] h-[600px] z-10  bg-blue-600/15"></div>
         )}
         {getScreen()}
       </div>

@@ -6,7 +6,7 @@ export const HERO_SECTION_BTN = 'Realiza el test'
 export const ABOUT_SECTION_HEADING = 'Instituto EducaTec'
 export const ABOUT_SECTION_PARAGRAPH =
   'Nos dedicamos a ofrecer una amplia gama de servicios que incluyen atención médica, asistencia y rehabilitación médica integral, así como apoyo jurídico especializado. Además, trabajamos en colaboración con comunidades indígenas, proporcionando apoyo para su desarrollo socioeconómico y cultural.'
-
+export const ABOUT_SECTION_BTN = 'Ver Directorio'
 export const PROJECTS = [
   {
     ID: 1,

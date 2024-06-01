@@ -47,7 +47,7 @@ const FormQuestions = () => {
   return (
     <form
       onSubmit={handleSubmit(onSubmit)}
-      className="flex flex-col gap-8 w-full  justify-center relative  pb-20 pr-52"
+      className="flex flex-col gap-8 w-full  justify-center relative  p-0 pb-0 pr-0 md:pb-20 md:pr-52"
     >
       <legend className="flex gap-4">
         <span className="flex items-center justify-center rounded-full bg-secondary text-white h-7 w-7 min-h-7 min-w-7">
@@ -87,7 +87,7 @@ const FormQuestions = () => {
             {...register('question1', { required: true })}
             aria-invalid={errors.question1 ? 'true' : 'false'}
           />
-          Yes
+          Si
         </label>
         <label
           htmlFor="question2"
@@ -149,7 +149,7 @@ const FormQuestions = () => {
             {...register('question2', { required: true })}
             aria-invalid={errors.question2 ? 'true' : 'false'}
           />
-          Yes
+          Si
         </label>
         <label
           htmlFor="question2"
@@ -173,7 +173,7 @@ const FormQuestions = () => {
           No
         </label>
       </fieldset>
-      <div className="flex gap-4 w-full  justify-end mt-24 absolute right-[-200px] bottom-[-100px]">
+      <div className="flex gap-4 w-full  justify-end mt-0 md:mt-24 relative  md:absolute right-0 left-0 md:right-[-200px] md:bottom-[-100px]">
         <Button type="button" variant="primary" handleClick={handleBack}>
           Anterior
         </Button>

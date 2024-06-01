@@ -2,6 +2,7 @@ import { Text } from '@/components/share/text/Text'
 import SectionWrapper from '@/components/share/SectionWrapper'
 
 import {
+  ABOUT_SECTION_BTN,
   ABOUT_SECTION_HEADING,
   ABOUT_SECTION_PARAGRAPH,
   HERO_SECTION_BTN,
@@ -31,7 +32,7 @@ const Home = () => {
           </Text>
           <Modal
             btnText={
-              <Text className="flex items-center gap-1 text-white uppercase">
+              <Text className="flex items-center gap-1 text-white uppercase text-sm md:text-xl">
                 {' '}
                 {HERO_SECTION_BTN} <FaArrowRight />
               </Text>
@@ -51,7 +52,7 @@ const Home = () => {
           headingText={ABOUT_SECTION_HEADING}
           bodyText={ABOUT_SECTION_PARAGRAPH}
           bodyCss="text-2xl font-medium text-white"
-          btnText={HERO_SECTION_BTN}
+          btnText={ABOUT_SECTION_BTN}
           link="/about"
         />
       </SectionWrapper>

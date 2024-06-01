@@ -12,7 +12,7 @@ const NavBar = () => {
   const [isVisible, setIsVisible] = useState(false)
   const pathname = usePathname()
   return (
-    <nav className="flex gap-4 rounded-[35px] bg-primary p-8 flex-col lg:flex-row mx-auto w-full">
+    <nav className="flex gap-4 rounded-[35px] bg-primary p-4 md:p-8 flex-col lg:flex-row mx-auto w-full">
       <div className="flex">
         <Link href="/">
           <LogoBox />

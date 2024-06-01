@@ -25,7 +25,8 @@ const config = {
         third: '#1E1424',
         fourth: '#C9C9C9',
         fifth: '#8D8D8D',
-        sixth: '#E9E4EC'
+        sixth: '#E9E4EC',
+        seven: '#1E1424'
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

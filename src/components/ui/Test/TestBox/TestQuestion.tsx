@@ -15,14 +15,14 @@ const TestQuestion = () => {
   return (
     <div
       key={page}
-      className="p-16 relative  w-[400px] h-[400px] md:w-[400px] md:h-[400px] lg:w-[800px] lg:h-[800px] flex items-center justify-center flex-col gap-4 z-30 animate-fade-in"
+      className="p-4 md:p-16 relative  size-full lg:w-[800px] lg:h-[800px] flex items-center justify-center flex-col gap-4 z-30 animate-fade-in"
     >
-      <div className="absolute w-[40%] right-0 top-0 flex flex-col ">
+      <div className="relative md:absolute w-[40%] right-0 top-0 flex flex-col ">
         <div>
           <Text
             as="h3"
             className={cn(
-              'text-white text-2xl font-bold',
+              'text-white  text-xl md:text-2xl font-bold',
               {
                 'text-primary': page % 2 === 0
               },

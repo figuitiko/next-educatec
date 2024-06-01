@@ -14,11 +14,11 @@ export const menuItems = [
     title: 'Galeria',
     url: '/gallery/care'
   },
-  {
-    id: 4,
-    title: 'Blog',
-    url: '/blog'
-  },
+  // {
+  //   id: 4,
+  //   title: 'Blog',
+  //   url: '/blog'
+  // },
   {
     id: 5,
     title: 'Contact',

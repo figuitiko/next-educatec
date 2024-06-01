@@ -1,7 +1,6 @@
-import Button from '@/components/share/button/Button'
 import { Text } from '@/components/share/text/Text'
 import SectionWrapper from '@/components/share/SectionWrapper'
-import { FaArrowRight } from 'react-icons/fa'
+
 import {
   ABOUT_SECTION_HEADING,
   ABOUT_SECTION_PARAGRAPH,
@@ -12,6 +11,9 @@ import {
 } from '../config'
 import ContentBox from '@/components/share/content-box/ContentBox'
 import { cn } from '@/utils/style.util'
+import Modal from '@/components/common/Modal'
+import { FaArrowRight } from 'react-icons/fa'
+import TestBox from '@/components/ui/Test/TestBox/TestBox'
 
 const Home = () => {
   return (
@@ -27,12 +29,17 @@ const Home = () => {
           <Text className="text-2xl font-medium">
             {HERO_SECTION_SUBHEADING}
           </Text>
-          <Button variant="secondary" href="/about">
-            <Text className="flex items-center gap-1 text-white uppercase">
-              {' '}
-              {HERO_SECTION_BTN} <FaArrowRight />
-            </Text>
-          </Button>
+          <Modal
+            btnText={
+              <Text className="flex items-center gap-1 text-white uppercase">
+                {' '}
+                {HERO_SECTION_BTN} <FaArrowRight />
+              </Text>
+            }
+            btnClassName="bg-secondary hover:bg-purple-500 text-white font-bold py-4 px-8 rounded justify-start w-fit"
+          >
+            <TestBox />
+          </Modal>
         </div>
       </SectionWrapper>
       <SectionWrapper

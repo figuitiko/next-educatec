@@ -11,14 +11,17 @@ export const metadata: Metadata = {
 }
 
 const RootLayout = ({
-  children
+  children,
+  modal
 }: Readonly<{
   children: React.ReactNode
+  modal?: React.ReactNode
 }>) => {
   return (
     <html lang="en">
       <body className={montserrat.className}>
         <Header />
+        {modal}
         <MainWrapper>{children}</MainWrapper>
         <Footer />
       </body>

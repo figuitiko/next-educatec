@@ -2,7 +2,7 @@ import { Text } from '@/components/share/text/Text'
 import Image from 'next/image'
 import { type AuthorCustomProps } from './AuthorList.types'
 
-import { SVGGenerator } from '../SVGGenerator'
+import { SVGGenerator } from '../../../common/SVGGenerator'
 
 const AuthorBox = ({ name, avatar, socials }: AuthorCustomProps) => {
   return (

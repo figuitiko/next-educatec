@@ -1,8 +1,11 @@
-export const HERO_SECTION_HEADING = 'Trazando un Futuro Solidario'
-export const HERO_SECTION_SUBHEADING = 'Ofrecemos asistencia integral y promovemos el desarrollo social y cultural con un enfoque en los Derechos Humanos.'
-export const HERO_SECTION_BTN = 'conoce más'
+export const HERO_SECTION_HEADING =
+  '¿Crees que podrías estar en una situación de Violencia?'
+export const HERO_SECTION_SUBHEADING =
+  'Con nuestro test te ayudaremos a identificar a identificar señales de violencia en tu relación. Tus respuestas son privadas y seguras.'
+export const HERO_SECTION_BTN = 'Realiza el test'
 export const ABOUT_SECTION_HEADING = 'Instituto EducaTec'
-export const ABOUT_SECTION_PARAGRAPH = 'Nos dedicamos a ofrecer una amplia gama de servicios que incluyen atención médica, asistencia y rehabilitación médica integral, así como apoyo jurídico especializado. Además, trabajamos en colaboración con comunidades indígenas, proporcionando apoyo para su desarrollo socioeconómico y cultural.'
+export const ABOUT_SECTION_PARAGRAPH =
+  'Nos dedicamos a ofrecer una amplia gama de servicios que incluyen atención médica, asistencia y rehabilitación médica integral, así como apoyo jurídico especializado. Además, trabajamos en colaboración con comunidades indígenas, proporcionando apoyo para su desarrollo socioeconómico y cultural.'
 
 export const PROJECTS = [
   {

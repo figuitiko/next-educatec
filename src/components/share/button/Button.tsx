@@ -1,4 +1,4 @@
-import React from 'react'
+'use client'
 import { type Props } from './Button.types'
 import { cn } from '@/utils/style.util'
 import Link from 'next/link'
@@ -14,7 +14,11 @@ const Button = (props: Props) => {
   )
   if ('handleClick' in props) {
     return (
-      <button className={classValues} onClick={props.handleClick}>
+      <button
+        type={props.type}
+        className={classValues}
+        onClick={props.handleClick}
+      >
         {children}
       </button>
     )

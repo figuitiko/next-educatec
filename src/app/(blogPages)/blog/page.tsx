@@ -5,11 +5,12 @@ import Button from '@/components/share/button/Button'
 import SectionWrapper from '@/components/share/SectionWrapper'
 import Image from 'next/image'
 import { FEATURED_POST_HEADING_SECTION } from './config'
-import AuthorSmallInfo from '@/components/common/AuthorSmallInfo/AuthorSmallInfo'
+
 import { Text } from '@/components/share/text/Text'
-import ListPostsFeature from '@/components/common/ListPostsFeature/ListPostsFeature'
+import ListPostsFeature from '@/components/ui/blog/ListPostsFeature/ListPostsFeature'
 import Link from 'next/link'
-import AuthorList from '@/components/common/AuthorList/AuthorList'
+import AuthorList from '@/components/ui/blog/AuthorList/AuthorList'
+import AuthorSmallInfo from '@/components/ui/blog/AuthorSmallInfo/AuthorSmallInfo'
 
 const BlogPage = () => {
   const getMainFeaturedPostPromise = getMainFeaturedPost()
@@ -136,7 +137,6 @@ const BlogPage = () => {
         <div className="flex w-full justify-center">
           <AuthorList />
         </div>
-        <div></div>
       </SectionWrapper>
     </>
   )

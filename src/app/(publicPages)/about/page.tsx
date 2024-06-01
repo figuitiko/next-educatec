@@ -8,7 +8,7 @@ import AuthorList from '@/components/ui/blog/AuthorList/AuthorList'
 const AboutPage = () => {
   return (
     <>
-      <SectionWrapper id="about" className="h-full lg:h-[calc(100vh-1020px)]">
+      <SectionWrapper id="about">
         <div className="flex flex-col justify-center items-center gap-4 p-12">
           <picture>
             <Image

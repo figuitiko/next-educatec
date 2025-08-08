@@ -1,7 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: ['frank-freeman.com']
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'frank-freeman.com',
+        pathname: '/**'
+      }
+    ]
   },
   webpack(config) {
     // Grab the existing rule that handles SVG imports

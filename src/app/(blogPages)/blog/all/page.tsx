@@ -6,9 +6,10 @@ import { getMainFeaturedPost, getPostsFromWp } from '@/lib/fetcher'
 import ListAllPost from '@/components/ui/blog/ListAllPost/ListAllPost'
 import { Pagination } from '@/components/common/Pagination/Pagination'
 
-type ISearchParams = Record<string, string | string | string[] | undefined>
+type SearchParams = Promise<{ [key: string]: string | string[] | undefined }>
 
-const page = ({ searchParams }: { searchParams: ISearchParams }) => {
+const page = async (props: { searchParams: SearchParams }) => {
+  const searchParams = await props.searchParams
   const page =
     typeof searchParams.page === 'string' ? parseInt(searchParams.page) : 1
 

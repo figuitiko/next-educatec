@@ -1,5 +1,8 @@
-const BlogPage = ({ params }: { params: { id: string } }) => {
-  return <div>{params.id}</div>
+type Params = Promise<{ id: string }>
+
+const BlogPage = async ({ params }: { params: Params }) => {
+  const { id } = (await params) ?? { id: 'default-id' }
+  return <div>{id}</div>
 }
 
 export default BlogPage
